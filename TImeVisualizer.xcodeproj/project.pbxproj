@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		228F9380D13FE156ED9E0531 /* Pods_TImeVisualizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D54188732AB00E4E20DAFA18 /* Pods_TImeVisualizer.framework */; };
+		56058746E636BB5C11B7105C /* Pods_TImeVisualizer_TImeVisualizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1307C293187C360CD30C6FDC /* Pods_TImeVisualizer_TImeVisualizerUITests.framework */; };
+		C8943813B82753CBC7F76CAE /* Pods_TImeVisualizerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78571304DEC91BD45578A1EA /* Pods_TImeVisualizerTests.framework */; };
 		CC4B1B76276C6C8C008415DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1B75276C6C8C008415DB /* AppDelegate.swift */; };
 		CC4B1B78276C6C8C008415DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1B77276C6C8C008415DB /* SceneDelegate.swift */; };
-		CC4B1B7A276C6C8C008415DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1B79276C6C8C008415DB /* ViewController.swift */; };
 		CC4B1B7D276C6C8C008415DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4B1B7B276C6C8C008415DB /* Main.storyboard */; };
 		CC4B1B80276C6C8C008415DB /* TImeVisualizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1B7E276C6C8C008415DB /* TImeVisualizer.xcdatamodeld */; };
 		CC4B1B82276C6C8D008415DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4B1B81276C6C8D008415DB /* Assets.xcassets */; };
@@ -17,6 +19,13 @@
 		CC4B1B90276C6C8D008415DB /* TImeVisualizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1B8F276C6C8D008415DB /* TImeVisualizerTests.swift */; };
 		CC4B1B9A276C6C8D008415DB /* TImeVisualizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1B99276C6C8D008415DB /* TImeVisualizerUITests.swift */; };
 		CC4B1B9C276C6C8D008415DB /* TImeVisualizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1B9B276C6C8D008415DB /* TImeVisualizerUITestsLaunchTests.swift */; };
+		CC4B1BAB276C9A08008415DB /* HabitTrackerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1BAA276C9A07008415DB /* HabitTrackerTableViewController.swift */; };
+		CC4B1BAD276C9A18008415DB /* DailyTaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1BAC276C9A18008415DB /* DailyTaskTableViewController.swift */; };
+		CC4B1BAF276C9AA3008415DB /* HabitTrackerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1BAE276C9AA3008415DB /* HabitTrackerTableViewCell.swift */; };
+		CC4B1BB1276CC030008415DB /* StatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1BB0276CC030008415DB /* StatViewController.swift */; };
+		CC4B1BB3276CEFDD008415DB /* DailyTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1BB2276CEFDD008415DB /* DailyTaskTableViewCell.swift */; };
+		CC4B1BB5276E58C1008415DB /* WeeklyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1BB4276E58C1008415DB /* WeeklyTableViewCell.swift */; };
+		CC4B1BB7276E58E6008415DB /* WeeklyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1BB6276E58E6008415DB /* WeeklyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1307C293187C360CD30C6FDC /* Pods_TImeVisualizer_TImeVisualizerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TImeVisualizer_TImeVisualizerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F83A4AE6C93EBEBD8BD03F5 /* Pods-TImeVisualizer-TImeVisualizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TImeVisualizer-TImeVisualizerUITests.release.xcconfig"; path = "Target Support Files/Pods-TImeVisualizer-TImeVisualizerUITests/Pods-TImeVisualizer-TImeVisualizerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		216949AC55AB653C52691AC7 /* Pods-TImeVisualizer-TImeVisualizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TImeVisualizer-TImeVisualizerUITests.debug.xcconfig"; path = "Target Support Files/Pods-TImeVisualizer-TImeVisualizerUITests/Pods-TImeVisualizer-TImeVisualizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EBAB8367773277365A0DFAA /* Pods-TImeVisualizerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TImeVisualizerTests.debug.xcconfig"; path = "Target Support Files/Pods-TImeVisualizerTests/Pods-TImeVisualizerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73C6CAC648C3599E21171E81 /* Pods-TImeVisualizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TImeVisualizer.release.xcconfig"; path = "Target Support Files/Pods-TImeVisualizer/Pods-TImeVisualizer.release.xcconfig"; sourceTree = "<group>"; };
+		78571304DEC91BD45578A1EA /* Pods_TImeVisualizerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TImeVisualizerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0BCE529879130B3CAADFD9 /* Pods-TImeVisualizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TImeVisualizer.debug.xcconfig"; path = "Target Support Files/Pods-TImeVisualizer/Pods-TImeVisualizer.debug.xcconfig"; sourceTree = "<group>"; };
 		CC4B1B72276C6C8C008415DB /* TImeVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TImeVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4B1B75276C6C8C008415DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC4B1B77276C6C8C008415DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC4B1B79276C6C8C008415DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC4B1B7C276C6C8C008415DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC4B1B7F276C6C8C008415DB /* TImeVisualizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TImeVisualizer.xcdatamodel; sourceTree = "<group>"; };
 		CC4B1B81276C6C8D008415DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +66,15 @@
 		CC4B1B95276C6C8D008415DB /* TImeVisualizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TImeVisualizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4B1B99276C6C8D008415DB /* TImeVisualizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImeVisualizerUITests.swift; sourceTree = "<group>"; };
 		CC4B1B9B276C6C8D008415DB /* TImeVisualizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImeVisualizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC4B1BAA276C9A07008415DB /* HabitTrackerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerTableViewController.swift; sourceTree = "<group>"; };
+		CC4B1BAC276C9A18008415DB /* DailyTaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTaskTableViewController.swift; sourceTree = "<group>"; };
+		CC4B1BAE276C9AA3008415DB /* HabitTrackerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerTableViewCell.swift; sourceTree = "<group>"; };
+		CC4B1BB0276CC030008415DB /* StatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatViewController.swift; sourceTree = "<group>"; };
+		CC4B1BB2276CEFDD008415DB /* DailyTaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTaskTableViewCell.swift; sourceTree = "<group>"; };
+		CC4B1BB4276E58C1008415DB /* WeeklyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyTableViewCell.swift; sourceTree = "<group>"; };
+		CC4B1BB6276E58E6008415DB /* WeeklyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyTableViewController.swift; sourceTree = "<group>"; };
+		D54188732AB00E4E20DAFA18 /* Pods_TImeVisualizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TImeVisualizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB6528AD07853FC1C582E9E /* Pods-TImeVisualizerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TImeVisualizerTests.release.xcconfig"; path = "Target Support Files/Pods-TImeVisualizerTests/Pods-TImeVisualizerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				228F9380D13FE156ED9E0531 /* Pods_TImeVisualizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8943813B82753CBC7F76CAE /* Pods_TImeVisualizerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +98,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56058746E636BB5C11B7105C /* Pods_TImeVisualizer_TImeVisualizerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C97CB11B32D2E2FE2B0C30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D54188732AB00E4E20DAFA18 /* Pods_TImeVisualizer.framework */,
+				1307C293187C360CD30C6FDC /* Pods_TImeVisualizer_TImeVisualizerUITests.framework */,
+				78571304DEC91BD45578A1EA /* Pods_TImeVisualizerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC4B1B69276C6C8C008415DB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +122,8 @@
 				CC4B1B8E276C6C8D008415DB /* TImeVisualizerTests */,
 				CC4B1B98276C6C8D008415DB /* TImeVisualizerUITests */,
 				CC4B1B73276C6C8C008415DB /* Products */,
+				D70F1B5BD88A6A1DBC766A44 /* Pods */,
+				04C97CB11B32D2E2FE2B0C30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +140,10 @@
 		CC4B1B74276C6C8C008415DB /* TImeVisualizer */ = {
 			isa = PBXGroup;
 			children = (
+				CC4B1BA9276C99EA008415DB /* models */,
+				CC4B1BA8276C99E1008415DB /* controllers */,
 				CC4B1B75276C6C8C008415DB /* AppDelegate.swift */,
 				CC4B1B77276C6C8C008415DB /* SceneDelegate.swift */,
-				CC4B1B79276C6C8C008415DB /* ViewController.swift */,
 				CC4B1B7B276C6C8C008415DB /* Main.storyboard */,
 				CC4B1B81276C6C8D008415DB /* Assets.xcassets */,
 				CC4B1B83276C6C8D008415DB /* LaunchScreen.storyboard */,
@@ -130,6 +170,40 @@
 			path = TImeVisualizerUITests;
 			sourceTree = "<group>";
 		};
+		CC4B1BA8276C99E1008415DB /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC4B1BAA276C9A07008415DB /* HabitTrackerTableViewController.swift */,
+				CC4B1BAC276C9A18008415DB /* DailyTaskTableViewController.swift */,
+				CC4B1BB0276CC030008415DB /* StatViewController.swift */,
+				CC4B1BB6276E58E6008415DB /* WeeklyTableViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		CC4B1BA9276C99EA008415DB /* models */ = {
+			isa = PBXGroup;
+			children = (
+				CC4B1BAE276C9AA3008415DB /* HabitTrackerTableViewCell.swift */,
+				CC4B1BB2276CEFDD008415DB /* DailyTaskTableViewCell.swift */,
+				CC4B1BB4276E58C1008415DB /* WeeklyTableViewCell.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		D70F1B5BD88A6A1DBC766A44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC0BCE529879130B3CAADFD9 /* Pods-TImeVisualizer.debug.xcconfig */,
+				73C6CAC648C3599E21171E81 /* Pods-TImeVisualizer.release.xcconfig */,
+				216949AC55AB653C52691AC7 /* Pods-TImeVisualizer-TImeVisualizerUITests.debug.xcconfig */,
+				1F83A4AE6C93EBEBD8BD03F5 /* Pods-TImeVisualizer-TImeVisualizerUITests.release.xcconfig */,
+				4EBAB8367773277365A0DFAA /* Pods-TImeVisualizerTests.debug.xcconfig */,
+				EDB6528AD07853FC1C582E9E /* Pods-TImeVisualizerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC4B1B9F276C6C8D008415DB /* Build configuration list for PBXNativeTarget "TImeVisualizer" */;
 			buildPhases = (
+				37A0B1BDBD78EE829422F3C3 /* [CP] Check Pods Manifest.lock */,
 				CC4B1B6E276C6C8C008415DB /* Sources */,
 				CC4B1B6F276C6C8C008415DB /* Frameworks */,
 				CC4B1B70276C6C8C008415DB /* Resources */,
+				8CA63F50DB24A25D0AB3C2D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC4B1BA2276C6C8D008415DB /* Build configuration list for PBXNativeTarget "TImeVisualizerTests" */;
 			buildPhases = (
+				7E46044D7CF4A5C921CCB107 /* [CP] Check Pods Manifest.lock */,
 				CC4B1B87276C6C8D008415DB /* Sources */,
 				CC4B1B88276C6C8D008415DB /* Frameworks */,
 				CC4B1B89276C6C8D008415DB /* Resources */,
@@ -172,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC4B1BA5276C6C8D008415DB /* Build configuration list for PBXNativeTarget "TImeVisualizerUITests" */;
 			buildPhases = (
+				B982BBFBC4E0CDB81B8D0324 /* [CP] Check Pods Manifest.lock */,
 				CC4B1B91276C6C8D008415DB /* Sources */,
 				CC4B1B92276C6C8D008415DB /* Frameworks */,
 				CC4B1B93276C6C8D008415DB /* Resources */,
+				CE14B625F4918A206C0CEF24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +335,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37A0B1BDBD78EE829422F3C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TImeVisualizer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E46044D7CF4A5C921CCB107 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TImeVisualizerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CA63F50DB24A25D0AB3C2D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TImeVisualizer/Pods-TImeVisualizer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TImeVisualizer/Pods-TImeVisualizer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TImeVisualizer/Pods-TImeVisualizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B982BBFBC4E0CDB81B8D0324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TImeVisualizer-TImeVisualizerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE14B625F4918A206C0CEF24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TImeVisualizer-TImeVisualizerUITests/Pods-TImeVisualizer-TImeVisualizerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TImeVisualizer-TImeVisualizerUITests/Pods-TImeVisualizer-TImeVisualizerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TImeVisualizer-TImeVisualizerUITests/Pods-TImeVisualizer-TImeVisualizerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC4B1B6E276C6C8C008415DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4B1BB3276CEFDD008415DB /* DailyTaskTableViewCell.swift in Sources */,
 				CC4B1B80276C6C8C008415DB /* TImeVisualizer.xcdatamodeld in Sources */,
-				CC4B1B7A276C6C8C008415DB /* ViewController.swift in Sources */,
+				CC4B1BAD276C9A18008415DB /* DailyTaskTableViewController.swift in Sources */,
+				CC4B1BB1276CC030008415DB /* StatViewController.swift in Sources */,
 				CC4B1B76276C6C8C008415DB /* AppDelegate.swift in Sources */,
+				CC4B1BB5276E58C1008415DB /* WeeklyTableViewCell.swift in Sources */,
+				CC4B1BB7276E58E6008415DB /* WeeklyTableViewController.swift in Sources */,
 				CC4B1B78276C6C8C008415DB /* SceneDelegate.swift in Sources */,
+				CC4B1BAF276C9AA3008415DB /* HabitTrackerTableViewCell.swift in Sources */,
+				CC4B1BAB276C9A08008415DB /* HabitTrackerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +626,7 @@
 		};
 		CC4B1BA0276C6C8D008415DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC0BCE529879130B3CAADFD9 /* Pods-TImeVisualizer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +655,7 @@
 		};
 		CC4B1BA1276C6C8D008415DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73C6CAC648C3599E21171E81 /* Pods-TImeVisualizer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -494,6 +684,7 @@
 		};
 		CC4B1BA3276C6C8D008415DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBAB8367773277365A0DFAA /* Pods-TImeVisualizerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +705,7 @@
 		};
 		CC4B1BA4276C6C8D008415DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB6528AD07853FC1C582E9E /* Pods-TImeVisualizerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +726,7 @@
 		};
 		CC4B1BA6276C6C8D008415DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 216949AC55AB653C52691AC7 /* Pods-TImeVisualizer-TImeVisualizerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +745,7 @@
 		};
 		CC4B1BA7276C6C8D008415DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F83A4AE6C93EBEBD8BD03F5 /* Pods-TImeVisualizer-TImeVisualizerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
