@@ -12,8 +12,13 @@
         <attribute name="isDone" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="name" optional="YES" attributeType="String"/>
     </entity>
+    <entity name="WeaklyTasks" representedClassName="WeaklyTasks" syncable="YES" codeGenerationType="class">
+        <attribute name="day" optional="YES" attributeType="String"/>
+        <attribute name="tasks" optional="YES" attributeType="Transformable" customClassName="NSObject"/>
+    </entity>
     <elements>
-        <element name="Habits" positionX="-63" positionY="-18" width="128" height="89"/>
         <element name="DailyCalendar" positionX="-54" positionY="18" width="128" height="89"/>
+        <element name="Habits" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="WeaklyTasks" positionX="-54" positionY="27" width="128" height="59"/>
     </elements>
 </model>

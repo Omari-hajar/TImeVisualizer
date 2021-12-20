@@ -10,6 +10,8 @@
 		228F9380D13FE156ED9E0531 /* Pods_TImeVisualizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D54188732AB00E4E20DAFA18 /* Pods_TImeVisualizer.framework */; };
 		56058746E636BB5C11B7105C /* Pods_TImeVisualizer_TImeVisualizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1307C293187C360CD30C6FDC /* Pods_TImeVisualizer_TImeVisualizerUITests.framework */; };
 		C8943813B82753CBC7F76CAE /* Pods_TImeVisualizerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78571304DEC91BD45578A1EA /* Pods_TImeVisualizerTests.framework */; };
+		CC3326B32770DD4D0057202C /* WeeklyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3326B22770DD4D0057202C /* WeeklyTableViewController.swift */; };
+		CC3326B52770ECC20057202C /* WeeklyTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3326B42770ECC20057202C /* WeeklyTasks.swift */; };
 		CC4B1B76276C6C8C008415DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1B75276C6C8C008415DB /* AppDelegate.swift */; };
 		CC4B1B78276C6C8C008415DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1B77276C6C8C008415DB /* SceneDelegate.swift */; };
 		CC4B1B7D276C6C8C008415DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4B1B7B276C6C8C008415DB /* Main.storyboard */; };
@@ -24,8 +26,6 @@
 		CC4B1BAF276C9AA3008415DB /* HabitTrackerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1BAE276C9AA3008415DB /* HabitTrackerTableViewCell.swift */; };
 		CC4B1BB1276CC030008415DB /* StatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1BB0276CC030008415DB /* StatViewController.swift */; };
 		CC4B1BB3276CEFDD008415DB /* DailyTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1BB2276CEFDD008415DB /* DailyTaskTableViewCell.swift */; };
-		CC4B1BB5276E58C1008415DB /* WeeklyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1BB4276E58C1008415DB /* WeeklyTableViewCell.swift */; };
-		CC4B1BB7276E58E6008415DB /* WeeklyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4B1BB6276E58E6008415DB /* WeeklyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +53,8 @@
 		73C6CAC648C3599E21171E81 /* Pods-TImeVisualizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TImeVisualizer.release.xcconfig"; path = "Target Support Files/Pods-TImeVisualizer/Pods-TImeVisualizer.release.xcconfig"; sourceTree = "<group>"; };
 		78571304DEC91BD45578A1EA /* Pods_TImeVisualizerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TImeVisualizerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0BCE529879130B3CAADFD9 /* Pods-TImeVisualizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TImeVisualizer.debug.xcconfig"; path = "Target Support Files/Pods-TImeVisualizer/Pods-TImeVisualizer.debug.xcconfig"; sourceTree = "<group>"; };
+		CC3326B22770DD4D0057202C /* WeeklyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyTableViewController.swift; sourceTree = "<group>"; };
+		CC3326B42770ECC20057202C /* WeeklyTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyTasks.swift; sourceTree = "<group>"; };
 		CC4B1B72276C6C8C008415DB /* TImeVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TImeVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4B1B75276C6C8C008415DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC4B1B77276C6C8C008415DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,8 +73,6 @@
 		CC4B1BAE276C9AA3008415DB /* HabitTrackerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerTableViewCell.swift; sourceTree = "<group>"; };
 		CC4B1BB0276CC030008415DB /* StatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatViewController.swift; sourceTree = "<group>"; };
 		CC4B1BB2276CEFDD008415DB /* DailyTaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTaskTableViewCell.swift; sourceTree = "<group>"; };
-		CC4B1BB4276E58C1008415DB /* WeeklyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyTableViewCell.swift; sourceTree = "<group>"; };
-		CC4B1BB6276E58E6008415DB /* WeeklyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyTableViewController.swift; sourceTree = "<group>"; };
 		D54188732AB00E4E20DAFA18 /* Pods_TImeVisualizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TImeVisualizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB6528AD07853FC1C582E9E /* Pods-TImeVisualizerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TImeVisualizerTests.release.xcconfig"; path = "Target Support Files/Pods-TImeVisualizerTests/Pods-TImeVisualizerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,7 +176,7 @@
 				CC4B1BAA276C9A07008415DB /* HabitTrackerTableViewController.swift */,
 				CC4B1BAC276C9A18008415DB /* DailyTaskTableViewController.swift */,
 				CC4B1BB0276CC030008415DB /* StatViewController.swift */,
-				CC4B1BB6276E58E6008415DB /* WeeklyTableViewController.swift */,
+				CC3326B22770DD4D0057202C /* WeeklyTableViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -186,7 +186,7 @@
 			children = (
 				CC4B1BAE276C9AA3008415DB /* HabitTrackerTableViewCell.swift */,
 				CC4B1BB2276CEFDD008415DB /* DailyTaskTableViewCell.swift */,
-				CC4B1BB4276E58C1008415DB /* WeeklyTableViewCell.swift */,
+				CC3326B42770ECC20057202C /* WeeklyTasks.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -448,9 +448,9 @@
 				CC4B1BAD276C9A18008415DB /* DailyTaskTableViewController.swift in Sources */,
 				CC4B1BB1276CC030008415DB /* StatViewController.swift in Sources */,
 				CC4B1B76276C6C8C008415DB /* AppDelegate.swift in Sources */,
-				CC4B1BB5276E58C1008415DB /* WeeklyTableViewCell.swift in Sources */,
-				CC4B1BB7276E58E6008415DB /* WeeklyTableViewController.swift in Sources */,
+				CC3326B32770DD4D0057202C /* WeeklyTableViewController.swift in Sources */,
 				CC4B1B78276C6C8C008415DB /* SceneDelegate.swift in Sources */,
+				CC3326B52770ECC20057202C /* WeeklyTasks.swift in Sources */,
 				CC4B1BAF276C9AA3008415DB /* HabitTrackerTableViewCell.swift in Sources */,
 				CC4B1BAB276C9A08008415DB /* HabitTrackerTableViewController.swift in Sources */,
 			);
